@@ -24,16 +24,30 @@ const copy = {
     eyebrow: 'A living atlas of art & place',
     titleA: 'The city is',
     titleB: 'not a backdrop.',
-    intro: 'Walk into the stories already living beneath your feet.',
-    homeText: 'Derive reconnects streets to the films, books, artists and ideas that have passed through them. Follow a feeling, not a pin. Let the city write the itinerary.',
+    intro: 'Every street keeps a second life: the one we imagine as we walk.',
+    homeText: 'A doorway becomes a sentence. A square, a cut in a film. Derive gathers these half-visible correspondences and lets them lead you elsewhere. No shortest route. No final reading.',
     explore: 'Wander through Paris',
     manifestoLink: 'Read our manifesto',
     imageCaption: 'Paris, 48°51′ N — a city of unfinished sentences',
     sideNote: 'No route is ever the same twice.',
     index: '01 — The proposition',
-    sectionTitle: 'A place is never just a place.',
-    sectionCopy: 'A pavement can hold a scene. A doorway, a whole novel. Derive makes those invisible layers walkable, gathering cultural memory into routes shaped by curiosity and the people who live here.',
+    sectionTitle: 'The map is not the territory. It is a memory in motion.',
+    sectionCopy: 'A city is written over, never finished. A line from a book finds its street; a film gives a familiar corner another light. Derive invites us to read the ordinary against the grain, and to add our own small annotation.',
     principles: ['Start with a place', 'Follow an association', 'Leave a trace'],
+    worksEyebrow: 'A few coordinates for getting lost',
+    worksTitle: 'Read the city sideways.',
+    worksIntro: 'Not a canon, not a checklist. Six open doors into the city’s many afterlives.',
+    worksNote: 'Associations are invitations, not claims of official location or endorsement.',
+    previewEyebrow: 'An open invitation / Paris',
+    previewTitle: 'Take the long way.',
+    works: [
+      { title: 'Nadja', creator: 'André Breton · 1928', mediumEn: 'NOVEL', mediumFr: 'ROMAN', place: 'Place Dauphine / the chance encounter', note: 'Paris appears as a sentence interrupted by coincidence.' },
+      { title: 'Le Paysan de Paris', creator: 'Louis Aragon · 1926', mediumEn: 'BOOK', mediumFr: 'LIVRE', place: 'Passage de l’Opéra / a vanished arcade', note: 'A demolished passage survives as a landscape of desire.' },
+      { title: 'À bout de souffle', creator: 'Jean-Luc Godard · 1960', mediumEn: 'FILM', mediumFr: 'CINÉMA', place: 'Champs-Élysées / the moving image', note: 'A walk, a cut, a city that refuses to stay in the frame.' },
+      { title: 'La Jetée', creator: 'Chris Marker · 1962', mediumEn: 'PHOTO-ROMAN', mediumFr: 'PHOTO-ROMAN', place: 'Paris and Orly / memory after the image', note: 'A still photograph opens into time, ruin and return.' },
+      { title: 'Le Ventre de Paris', creator: 'Émile Zola · 1873', mediumEn: 'NOVEL', mediumFr: 'ROMAN', place: 'Les Halles / the city that feeds itself', note: 'The market becomes a body: abundance, labor, appetite.' },
+      { title: 'Paris de nuit', creator: 'Brassaï · 1933', mediumEn: 'PHOTOGRAPHY', mediumFr: 'PHOTOGRAPHIE', place: 'The nocturnal city / after the crowds', note: 'Wet stone, lit windows: Paris pauses between two lives.' },
+    ],
     atlasTitle: 'Paris, in fragments',
     atlasDeck: 'Pick a point. Find what happened here, what was imagined here, and what might happen next.',
     routeLabel: 'A left-bank drift',
@@ -51,10 +65,10 @@ const copy = {
     manifestoTitle: 'The right to lose our way.',
     manifestoLead: 'We refuse the city as a product to be consumed at speed.',
     manifestoBody: [
-      'We believe a street is more than its destination. It is a score for the body, a memory held in stone, a meeting that has not happened yet.',
-      'We borrow the Situationists’ invitation to drift, but make no map into a command. Derive is an open invitation to walk without efficiency: to let architecture, a line of dialogue, a stranger’s gesture alter your direction.',
-      'Culture does not belong only behind glass. It leaks into cafés, crossings, stairwells, cinemas and the names we give a corner. We gather these fragments with care, credit their makers, and return them to the places that shaped them.',
-      'The city is not a feed. It is a shared, unfinished work. Walk gently. Notice who is missing. Add your trace. Leave room for another.'
+      'A street is not the line between two useful points. It is a score the body may misread; a sentence whose ending has been washed away; a meeting still waiting in the weather.',
+      'Following the Situationist dérive, we walk without making efficiency our compass. A red curtain, a remembered image, an unknown turning interrupt the plan. To drift is not to be nowhere. It is to become available to where we are.',
+      'A book does not stay on its shelf. It crosses a square. A film escapes its frame and settles on a wall at dusk. We follow these migrations with care: naming the artists, leaving room for uncertain memory, refusing to confuse association with ownership.',
+      'The map is a proposal, never a verdict. The city belongs to those who pass through it, those who remain, and those whose names were left out. Add a trace. Contradict ours. Leave the page unfinished for the next walker.'
     ],
     manifestoSign: 'For the right to wander, remember, and remake the everyday.',
     unionEyebrow: 'For the ones who make and notice',
@@ -83,16 +97,30 @@ const copy = {
     eyebrow: 'Un atlas vivant de l’art et des lieux',
     titleA: 'La ville',
     titleB: 'n’est pas un décor.',
-    intro: 'Entrez dans les histoires qui vivent déjà sous vos pas.',
-    homeText: 'Derive relie les rues aux films, aux livres, aux artistes et aux idées qui les ont traversées. Suivez une intuition, pas une épingle. Laissez la ville écrire l’itinéraire.',
+    intro: 'Chaque rue garde une seconde vie : celle que l’on imagine en marchant.',
+    homeText: 'Une porte devient une phrase. Une place, un raccord de film. Derive rassemble ces correspondances à demi visibles et les laisse vous conduire ailleurs. Pas de trajet le plus rapide. Pas de lecture définitive.',
     explore: 'Dériver dans Paris',
     manifestoLink: 'Lire notre manifeste',
     imageCaption: 'Paris, 48°51′ N — une ville de phrases inachevées',
     sideNote: 'Aucun trajet ne se répète.',
     index: '01 — La proposition',
-    sectionTitle: 'Un lieu n’est jamais seulement un lieu.',
-    sectionCopy: 'Un trottoir peut contenir une scène. Une porte, tout un roman. Derive rend ces strates invisibles praticables et rassemble la mémoire culturelle en itinéraires guidés par la curiosité et celles et ceux qui habitent la ville.',
+    sectionTitle: 'La carte n’est pas le territoire. C’est une mémoire en mouvement.',
+    sectionCopy: 'La ville se réécrit sans jamais s’achever. Une phrase trouve sa rue ; un film donne à un coin familier une autre lumière. Derive invite à lire le quotidien à contre-courant et à y déposer sa propre annotation.',
     principles: ['Partir d’un lieu', 'Suivre une association', 'Laisser une trace'],
+    worksEyebrow: 'Quelques coordonnées pour se perdre',
+    worksTitle: 'Lire la ville de biais.',
+    worksIntro: 'Ni canon, ni liste à cocher. Six portes ouvertes sur les vies successives de la ville.',
+    worksNote: 'Ces rapprochements sont des invitations, pas des affirmations de lieu officiel ni des recommandations.',
+    previewEyebrow: 'Invitation ouverte / Paris',
+    previewTitle: 'Prenez le chemin de traverse.',
+    works: [
+      { title: 'Nadja', creator: 'André Breton · 1928', mediumEn: 'NOVEL', mediumFr: 'ROMAN', place: 'Place Dauphine / la rencontre fortuite', note: 'Paris devient une phrase interrompue par le hasard.' },
+      { title: 'Le Paysan de Paris', creator: 'Louis Aragon · 1926', mediumEn: 'BOOK', mediumFr: 'LIVRE', place: 'Passage de l’Opéra / une galerie disparue', note: 'Une galerie démolie demeure paysage du désir.' },
+      { title: 'À bout de souffle', creator: 'Jean-Luc Godard · 1960', mediumEn: 'FILM', mediumFr: 'CINÉMA', place: 'Champs-Élysées / l’image en mouvement', note: 'Une marche, un raccord, une ville qui déborde du cadre.' },
+      { title: 'La Jetée', creator: 'Chris Marker · 1962', mediumEn: 'PHOTO-ROMAN', mediumFr: 'PHOTO-ROMAN', place: 'Paris et Orly / la mémoire après l’image', note: 'Une photographie ouvre le temps, la ruine et le retour.' },
+      { title: 'Le Ventre de Paris', creator: 'Émile Zola · 1873', mediumEn: 'NOVEL', mediumFr: 'ROMAN', place: 'Les Halles / la ville qui se nourrit', note: 'Le marché devient un corps : abondance, travail, appétit.' },
+      { title: 'Paris de nuit', creator: 'Brassaï · 1933', mediumEn: 'PHOTOGRAPHY', mediumFr: 'PHOTOGRAPHIE', place: 'La ville nocturne / après la foule', note: 'Pierre mouillée, fenêtres allumées : Paris suspendu entre deux vies.' },
+    ],
     atlasTitle: 'Paris, par fragments',
     atlasDeck: 'Choisissez un point. Découvrez ce qui s’y est passé, ce qui s’y est imaginé, et ce qui pourrait arriver.',
     routeLabel: 'Une dérive rive gauche',
@@ -110,10 +138,10 @@ const copy = {
     manifestoTitle: 'Le droit de se perdre.',
     manifestoLead: 'Nous refusons la ville comme produit à consommer à toute vitesse.',
     manifestoBody: [
-      'Nous croyons qu’une rue est plus qu’une destination. C’est une partition pour le corps, une mémoire dans la pierre, une rencontre qui n’a pas encore eu lieu.',
-      'Nous reprenons l’invitation situationniste à la dérive, sans faire de la carte une consigne. Derive invite à marcher sans rendement : laisser l’architecture, une réplique, le geste d’un inconnu infléchir sa direction.',
-      'La culture ne se trouve pas seulement derrière une vitre. Elle déborde dans les cafés, les carrefours, les escaliers, les cinémas et les noms donnés à un coin de rue. Nous rassemblons ces fragments avec soin, citons leurs créateurs et les rendons aux lieux qui les ont façonnés.',
-      'La ville n’est pas un fil d’actualité. C’est une œuvre commune, inachevée. Marchez avec douceur. Voyez qui manque. Ajoutez votre trace. Laissez une place à l’autre.'
+      'Une rue n’est pas la ligne entre deux points utiles. C’est une partition que le corps peut mal lire ; une phrase dont la pluie a effacé la fin ; une rencontre encore suspendue dans le temps qu’il fait.',
+      'Dans le sillage de la dérive situationniste, nous marchons sans prendre l’efficacité pour boussole. Un rideau rouge, une image remémorée, un tournant inconnu interrompent le programme. Dériver, ce n’est pas être nulle part. C’est devenir disponible à l’endroit où l’on se trouve.',
+      'Un livre ne reste pas sur son rayon. Il traverse une place. Un film sort de son cadre et se pose au crépuscule sur un mur. Nous suivons ces migrations avec soin : nommer les artistes, laisser place aux souvenirs incertains, ne pas confondre association et appropriation.',
+      'La carte est une proposition, jamais un verdict. La ville appartient à celles et ceux qui la traversent, qui y restent, et dont les noms ont été omis. Ajoutez une trace. Contredisez la nôtre. Laissez la page inachevée pour la prochaine personne en marche.'
     ],
     manifestoSign: 'Pour le droit de dériver, de se souvenir et de réinventer le quotidien.',
     unionEyebrow: 'Pour celles et ceux qui font et qui regardent',
@@ -337,8 +365,29 @@ function App() {
                 <div className="thesis-right"><p>{t.sectionCopy}</p><div className="principle-row">{t.principles.map((item, index) => <span key={item}><b>0{index + 1}</b>{item}</span>)}</div></div>
               </div>
             </section>
+            <section className="works-index" aria-labelledby="works-index-title">
+              <div className="works-index-heading">
+                <div>
+                  <span className="works-kicker">{t.worksEyebrow}</span>
+                  <h2 id="works-index-title">{t.worksTitle}</h2>
+                </div>
+                <p>{t.worksIntro}</p>
+              </div>
+              <div className="works-grid">
+                {t.works.map((work, index) => (
+                  <article className="work-entry" key={work.title}>
+                    <div className="work-entry-meta"><span>0{index + 1}</span><span>{language === 'fr' ? work.mediumFr : work.mediumEn}</span></div>
+                    <h3>{work.title}</h3>
+                    <p className="work-creator">{work.creator}</p>
+                    <p className="work-place">{work.place}</p>
+                    <p className="work-note">{work.note}</p>
+                  </article>
+                ))}
+              </div>
+              <p className="works-note">{t.worksNote}</p>
+            </section>
             <section className="preview-section">
-              <div className="preview-heading"><div><span className="micro-label">AN OPEN INVITATION / PARIS</span><h2>Take the long way.</h2></div><button className="round-arrow" aria-label={t.explore} type="button" onClick={() => go('atlas')}><ArrowUpRight size={22} /></button></div>
+              <div className="preview-heading"><div><span className="micro-label">{t.previewEyebrow}</span><h2>{t.previewTitle}</h2></div><button className="round-arrow" aria-label={t.explore} type="button" onClick={() => go('atlas')}><ArrowUpRight size={22} /></button></div>
               <div className="preview-strip">
                 {traces.slice(0, 3).map((trace) => <button className="preview-place" key={trace.id} type="button" onClick={() => { setActiveTrace(trace); go('atlas'); }}><span>{trace.number}</span><b>{trace.name}</b><ArrowUpRight size={14} /></button>)}
               </div>
